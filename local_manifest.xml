@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!-- Device Tree, Vendor, Kernel -->
+  <project name="Xiaomi-Andromeda/device_xiaomi_andromeda" path="device/xiaomi/andromeda" remote="github" />
+  <project name="Xiaomi-Andromeda/kernel_xiaomi_andromeda" path="kernel/xiaomi/andromeda" remote="github" />
+  <project name="Xiaomi-Andromeda/vendor_xiaomi_andromeda" path="vendor/xiaomi/andromeda" remote="github" />
+</manifest>
