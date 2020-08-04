@@ -4,4 +4,8 @@
   <project name="Xiaomi-Andromeda/device_xiaomi_andromeda" path="device/xiaomi/andromeda" remote="github" />
   <project name="Xiaomi-Andromeda/kernel_xiaomi_andromeda" path="kernel/xiaomi/andromeda" remote="github" />
   <project name="Xiaomi-Andromeda/vendor_xiaomi_andromeda" path="vendor/xiaomi/andromeda" remote="github" />
+
+  <!-- CAF Display HAL -->
+  <remove-project name="LineageOS/android_hardware_qcom_display" />
+  <project name="Xiaomi-Andromeda/hardware_qcom-caf_sm8150_display" path="hardware/qcom-caf/sm8150/display" remote="github" revision="ten" />
 </manifest>
